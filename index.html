@@ -201,6 +201,13 @@ Contact Us</a>
 
 <style>
 
+<style>
+
+#mobileHeader,
+#mobileMenu{
+display:none;
+}
+
 @media(max-width:768px){
 
 #mobileHeader{
@@ -242,12 +249,25 @@ body{
 padding-top:70px !important;
 }
 
-.elementskit-menu-container,
-.elementskit-menu-hamburger{
+}
+
+@media(min-width:769px){
+
+#mobileHeader,
+#mobileMenu{
 display:none !important;
+visibility:hidden !important;
+opacity:0 !important;
+pointer-events:none !important;
+}
+
+body{
+padding-top:0 !important;
 }
 
 }
+
+</style>
 
 </style>
 
@@ -1006,7 +1026,7 @@ display:none !important;
 <!-- <form action="https://formsubmit.co/unique.pratik@gmail.com" method="POST" class="real-contact-form"> -->
 
 <form action="https://api.web3forms.com/submit" method="POST"  id="form" class="real-contact-form">
-<input type="hidden" name="access_key" value="6a73c8b0-5bcb-4f8d-9112-beb16638c326">
+<input type="hidden" name="access_key" value="hi">
 <input type="hidden" name="_subject" value="New FarmMech Website Lead">
 <input type="hidden" name="_captcha" value="false">
 <input type="hidden" name="_template" value="table">
