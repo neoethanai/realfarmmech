@@ -1,0 +1,22 @@
+
+CONTACT FORM SETUP
+
+Your website form is now connected to:
+
+unique.pratik@gmail.com
+
+IMPORTANT:
+The FIRST submission will ask you to confirm activation from FormSubmit.
+
+Steps:
+1. Deploy website
+2. Submit form once
+3. Open your Gmail
+4. Click activation/confirm link from FormSubmit
+5. Done
+
+After that:
+- every lead submission comes to your email
+- no WordPress needed
+- no backend needed
+- works on Vercel/static hosting

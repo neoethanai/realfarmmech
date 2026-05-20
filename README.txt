@@ -1,0 +1,1 @@
+Keep your existing images folder beside index.html before deploying.
